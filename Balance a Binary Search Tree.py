@@ -7,7 +7,7 @@
 class Solution:
     def balanceBST(self, root: TreeNode) -> TreeNode:
         def dfs(node):
-            """inorder depth-first traverse bst"""
+            """inorder depth-first traversal bst"""
             if not node: return 
             dfs(node.left)
             value.append(node.val)
